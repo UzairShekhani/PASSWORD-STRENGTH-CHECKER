@@ -1,0 +1,76 @@
+:root {
+  --primary: #ffffff;
+  --input-bg: #000000;
+  --text-color: #ffffff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font: 400 1rem Sans-Serif;
+  background-image: url(360_F_200686978_xUZgMeJv0Rj8a98jbfeHci8slCU8RdHF.jpg);
+  background-size: cover;
+}
+.password-checker {
+  width: 50vw;
+  background-color: var(--primary);
+  padding: 2rem;
+  border-radius: 1rem;
+
+  border: 0.1rem solid transparent;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+.password-checker:hover {
+  transform: scale(1.05);
+}
+h1 {
+  font: 800 2rem sans-serif;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+.input-group {
+  position: relative;
+  width: 100%;
+  margin-top: 2rem;
+}
+.input-group::before {
+  position: absolute;
+  content: "\1f512";
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+input#password {
+  width: 100%;
+  padding: 1rem 1rem 1rem 2.8rem;
+  background-color: var(--input-bg);
+  color: var(--text-color);
+  font-size: 1rem;
+
+  border: none;
+}
+h5 {
+  margin: 3rem 0 1.5rem;
+}
+.progress{
+    height: .4rem;
+    width: 100%;
+    background-color:hsl(0, 0%, 0%) ;
+    border-radius: .4rem;
+}
+.bar{
+    width: 0%;
+    height: 100%;
+    background-color: unset;
+    border-radius: inherit;
+    transition: .4s ease-in-out;
+}
