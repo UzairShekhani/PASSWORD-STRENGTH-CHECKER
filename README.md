@@ -1,6 +1,6 @@
 # 🚀 Password Strength Checker
 
-![logo](https://github.com/UzairShekhani/UzairShekhani/blob/main/Capture2.PNG)
+![logo](https://github.com/UzairShekhani/PASSWORD-STRENGTH-CHECKER/blob/main/Screenshot%202023-10-30%20120043.png)
 
 **Password Strength Checker** is a sleek and user-friendly tool designed to help users create rock-solid passwords. With real-time feedback and a visually appealing interface, it makes password creation a breeze.
 
